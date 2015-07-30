@@ -1,2 +1,5 @@
-# algorithmhub.github.io
-algorithmhub.com
+algoritics.com
+=========================
+
+Jekyll based.
+

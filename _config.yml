@@ -1,0 +1,34 @@
+# Site settings
+title: AlgorithmHub
+email: none@yet
+description: Easiest and most convenient way to deploy algorithms written in Python, R, Octave, Julia, and Torch to the cloud.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://algorithmhub.com" # the base hostname & protocol for your site
+
+
+# Footer settings
+footer:
+  copyright: MathNimbus
+  credits: Algoritics
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/mixxen
+  - title: facebook
+    url: http://facebook.com/algoritics
+  - title: github
+    url: http://github.com/mixxen
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Maui
+  - line: Hawaii
+
+# Credits content
+credits: 'Web design byAlgoritics, LLC'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
