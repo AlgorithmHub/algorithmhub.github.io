@@ -1,4 +1,4 @@
-algoritics.com
+Demo
 =========================
 
 Jekyll based.
