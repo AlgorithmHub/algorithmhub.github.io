@@ -186,6 +186,18 @@ h4 {
     height: 50px;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #666666;
+    border-bottom: white;
+    border-bottom-style: solid;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #212121;
+    border-bottom: #7E57C2;
+    border-bottom-style: solid;
+}
+
 /*
 .navbar-default .navbar-nav > li > a {
     color: white;
