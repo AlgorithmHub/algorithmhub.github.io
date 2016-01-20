@@ -10,7 +10,7 @@
     background-position: center center;
     min-height: 600px;
     width: 100%;
-    
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -20,7 +20,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     background-color: $brand-color;
 }
 
@@ -34,7 +34,7 @@
 }
 
 #h #logo {
-  height: 100px;
+  height: 250px;
 }
 
 #h h1 {
@@ -53,11 +53,11 @@
 @media(min-width:768px) {
 
   #h h1 {
-    font-size: 60px; 
+    font-size: 60px;
   }
 
   #h h2 {
-    font-size: 35px; 
+    font-size: 35px;
   }
 
 }
@@ -110,4 +110,11 @@
 #testimonial hr {
     border: solid 1px #ccc;
     width: 80px;
+}
+
+.btn-jumbo {
+    padding: 10px 16px;
+    font-size: 30px;
+    line-height: 1.3333333;
+    border-radius: 3px;
 }
