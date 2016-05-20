@@ -119,3 +119,86 @@
     line-height: 1.3333333;
     border-radius: 3px;
 }
+
+
+/* Tutorial */
+
+.tutorial-list {
+  margin-top: 40px;
+  counter-reset: tutorialstep;
+  display: none;
+}
+
+.tutorial-list.active {
+  display: block;
+}
+
+.tutorial-list > li {
+  position: relative;
+  background-color: #fff;
+  margin: 0 0 70px 0px;
+  padding: 40px 0 60px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 1;
+
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  -moz-transition: all 0.6s ease-in-out 0s;
+  -o-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+}
+
+.tutorial-list .image-right {
+  padding-right: 440px;
+}
+
+.tutorial-list .image-right p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.tutorial-list .question:after {
+  content: "?";
+}
+
+.tutorial-list > li:not(.question):after {
+  counter-increment: tutorialstep;
+  content: counter(tutorialstep);
+}
+
+.tutorial-list > li:after {
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  background-color: #327fc7;
+  border-radius: 200px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  z-index: 100;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#new-user-step-1 {
+    background: #fff url(/img/step1@2x.png) right 0 no-repeat;
+    background-size: 446px 344px;
+}
+
+#new-user-step-2 {
+    background: #fff url(/img/step2@2x.png) right 0 no-repeat;
+    background-size: 446px 344px;
+}
+
+.animate-in {
+  transition: all 0.7s ease-in-out;
+}
