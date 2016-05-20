@@ -10,18 +10,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-
-p {
-    padding: 0;
-    margin-bottom: 12px;
-    font-family: $base-font-family;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 28px;
-    color: #666;
-    margin-top: 10px;
-}
-
 html,
 body {
     height: 100%;
@@ -133,6 +121,10 @@ h4 {
 
 .text16 {
     font-size: 16px;
+}
+
+.text22 {
+    font-size: 22px;
 }
 
 .text28 {
