@@ -150,19 +150,6 @@
   transition: all 0.6s ease-in-out 0s;
 }
 
-.tutorial-list .image-right {
-  padding-right: 440px;
-}
-
-.tutorial-list .image-right p {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.tutorial-list .question:after {
-  content: "?";
-}
-
 .tutorial-list > li:not(.question):after {
   counter-increment: tutorialstep;
   content: counter(tutorialstep);
@@ -201,4 +188,26 @@ ol, ul {
 
 .animate-in {
   transition: all 0.7s ease-in-out;
+}
+
+
+.tutorial-list .image-right {
+  padding-right: 440px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .tutorial-list .image-right {
+      padding-right: 0px;
+    }
+
+    #new-user-step-1 {
+        background: none;
+    }
+
+    #new-user-step-2 {
+      background: none;
+    }
+
+
 }
